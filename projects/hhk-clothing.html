@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zhapar | Front-end developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.min.css" />
+  </head>
+  <body data-barba="wrapper">
+    <nav class="nav-bar">
+      <div class="container">
+        <div class="logo">
+          <a href="../index.html" id="logo"
+            ><img src="../img/logo.svg" alt="Logo"
+          /></a>
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="links">
+          <li><a class="link" href="../index.html#projects">Projects</a></li>
+          <li><a class="link" href="../index.html#contact">Contact</a></li>
+          <li><a class="link" href="../index.html#about">About Me</a></li>
+          <li>
+            <a class="link" href="#">Resume<i class="fas fa-download"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div
+      class="barba-container"
+      data-barba="container"
+      data-barba-namespace="project"
+    >
+      <header class="project">
+        <div class="container">
+          <section class="overview" id="overview">
+            <h2 class="section-title">Overview</h2>
+            <div class="project">
+              <p class="project-text">
+                Browse your favorite Movies, TV shows, and actors. Search for
+                specific movies, shows or actors by date, rating, region and
+                other categories. Browse the latest and greatest films and to
+                find information about its actors, crew, and reviews. Rate and
+                favorite Movies, TV shows and actors while having access to them
+                through a user account. Login / Authentication.
+              </p>
+              <div class="project-preview">
+                <div class="image-container">
+                  <img
+                    src="../img/Project 2.png"
+                    alt="Movie"
+                    class="project-image"
+                  />
+                </div>
+                <div class="buttons">
+                  <a
+                    target="_blank"
+                    href="https://hhk-clothing.herokuapp.com/"
+                    class="button"
+                    >Visit project <i class="fas fa-angle-double-right"></i
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/zhapar/clothing"
+                    class="button"
+                    >View code <i class="fas fa-angle-double-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </header>
+      <main class="project">
+        <section id="about-project">
+          <div class="container">
+            <h2 class="section-title">Technologies used</h2>
+            <div class="technologies">
+              <div class="image-container">
+                <img src="../img/clothing.png" alt="Clothing" />
+              </div>
+              <div class="used">
+                <ul class="lists">
+                  <li class="list">React</li>
+                  <li class="list">React Router</li>
+                  <li class="list">Redux</li>
+                  <li class="list">Hooks</li>
+                  <li class="list">Firebase</li>
+                  <li class="list">Sass</li>
+                </ul>
+              </div>
+            </div>
+            <a href="../index.html#projects" class="button"
+              ><i class="fas fa-angle-double-left"></i> Back to the projects
+            </a>
+          </div>
+        </section>
+      </main>
+      <footer>© 2020 Zhapar Manas uulu</footer>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+      integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+      integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"
+      integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../script.js"></script>
+  </body>
+</html>
