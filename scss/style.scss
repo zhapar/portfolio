@@ -1683,11 +1683,15 @@ main.project {
     section.overview {
       padding-top: 6rem;
       .project {
+        .project-text {
+          margin-bottom: 2rem;
+        }
         .project-preview {
           padding-bottom: 3rem;
           .image-container {
             margin-top: 3rem;
             height: 150px;
+            margin-bottom: 4rem;
             img {
               width: 95%;
             }
