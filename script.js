@@ -178,6 +178,9 @@ function animateAbout() {
 
 // Barba Page Transitions
 const logo = document.querySelector("#logo");
+const projects = document.querySelector(".project_link");
+const contact = document.querySelector(".contact_link");
+const about = document.querySelector(".about_link");
 barba.init({
   sync: true,
   views: [
@@ -185,6 +188,9 @@ barba.init({
       namespace: "home",
       beforeEnter() {
         logo.href = "./index.html";
+        projects.href = "../index.html#projects";
+        contact.href = "../index.html#contact";
+        about.href = "../index.html#about";
         animateHeader();
         animateWorks();
         animateSkills();
