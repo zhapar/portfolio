@@ -468,6 +468,14 @@ main.home {
           border-radius: 50%;
           object-fit: cover;
           display: inline-block;
+          text-align: center;
+        }
+        .myName {
+          text-align: center;
+          margin-top: 1rem;
+          color: $text-color;
+          font-size: 1.7rem;
+          font-weight: normal;
         }
       }
 
@@ -1675,6 +1683,12 @@ main.project {
       .story {
         flex-direction: column;
         align-items: center;
+        .image {
+          text-align: center;
+          .myName {
+            margin-bottom: 3rem;
+          }
+        }
       }
     }
   }
