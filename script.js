@@ -188,9 +188,6 @@ barba.init({
       namespace: "home",
       beforeEnter() {
         logo.href = "./index.html";
-        projects.href = "../index.html#projects";
-        contact.href = "../index.html#contact";
-        about.href = "../index.html#about";
         animateHeader();
         animateWorks();
         animateSkills();
@@ -207,6 +204,9 @@ barba.init({
       namespace: "project",
       afterEnter() {
         logo.href = "../index.html";
+        projects.href = "../index.html#projects";
+        contact.href = "../index.html#contact";
+        about.href = "../index.html#about";
       },
     },
   ],
