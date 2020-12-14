@@ -24,7 +24,10 @@ function removeNavbar(e) {
 // Event listeners
 burger.addEventListener("click", navToggle);
 window.addEventListener("click", (e) => {
-  if (e.target.className == "link" || e.target.classList.contains("nav-on")) {
+  if (
+    e.target.classList.contains("link") ||
+    e.target.classList.contains("nav-on")
+  ) {
     removeNavbar(e);
   }
 });
